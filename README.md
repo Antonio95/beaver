@@ -30,7 +30,7 @@ After compiling (for instance, with `cargo build`), the executable can be run wi
 
 where:
 - `<exec_path>` is the path to the executable, usually `./target/debug/beaver` from the main cargo directory.
-- `<input_path>` is the path containing the input file, which encodes the circuit and other data as specified in the section [Input file structure](#input-file-structure) below. A few example input files are included in the `examples_inputs` folder.
+- `<input_path>` is the path containing the input file, which encodes the circuit and other data as specified in the section [Input file structure](#input-file-structure) below. A few example input files are included in the `example_inputs` folder.
 - `<output_path>` is a partial path for the output logs. The programme will create three files: `<output_path>_dealer.txt`, `<output_path>_p1.txt` and `<output_path>_p2.txt`.
 
 The aforementioned logs contain a record of the data received and sent by the corresponding party or the dealer.
