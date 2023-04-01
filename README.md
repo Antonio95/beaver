@@ -42,7 +42,7 @@ If the protocol is executed successfully (i.e. without either party aborting), t
 ### Input file structure
 
 Input files are plain text files encoding the circuit, input data and output assignment data.
-Examples can be found in the `examples_inputs` folder. An input file must contain the following elements in order:
+Examples can be found in the `example_inputs` folder. An input file must contain the following elements in order:
 
 1. An encoding of the circuit, which can be freely split along any number of (non-blank) lines. Line breaks aside, the structure of this encoding is as follows:
     > `<gates> & <outputs_for_p1> & <outputs_for_p2>`
